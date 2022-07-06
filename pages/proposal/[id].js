@@ -1,6 +1,6 @@
 export async function getStaticPaths() {
     const paths = [];
-    for (let index = 1; index < 8000; index++) {
+    for (let index = 1; index < 80; index++) {
         paths.push({
             params: {
                 id: `${index}`
